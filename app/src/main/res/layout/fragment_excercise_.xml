@@ -14,7 +14,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@drawable/yoga_bigBanner" />
+        tools:srcCompat="@drawable/yoga_bigbanner" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -36,7 +36,7 @@
         android:layout_marginTop="10sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
-        tools:src="@drawable/BOUND_ANGLE_POSE" />
+        tools:src="@drawable/bound_angle_pose" />
 
     <TextView
         android:id="@+id/textView2"
@@ -61,7 +61,7 @@
         android:layout_marginTop="8dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        tools:src="@drawable/BRIDGE_POSE" />
+        tools:src="@drawable/bridge_pose" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -71,7 +71,7 @@
         android:layout_marginTop="8dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        tools:src="@drawable/CAT_CAMEL_POSE_1" />
+        tools:src="@drawable/cat_camel_pose_1" />
 
     <TextView
         android:id="@+id/textView3"
