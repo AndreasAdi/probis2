@@ -11,10 +11,11 @@
         android:id="@+id/imageView"
         android:layout_width="409dp"
         android:layout_height="195dp"
+        android:scaleType="centerCrop"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@drawable/yoga_bigbanner" />
+        app:srcCompat="@drawable/yoga_bigbanner" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -25,8 +26,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-    </LinearLayout>
+        app:layout_constraintTop_toTopOf="parent"></LinearLayout>
 
     <ImageView
         android:id="@+id/imageView2"
@@ -34,9 +34,13 @@
         android:layout_height="120sp"
         android:layout_marginStart="10sp"
         android:layout_marginTop="20sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bound_angle_pose"
+        android:visibility="visible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
-        tools:src="@drawable/bound_angle_pose" />
+        app:srcCompat="@drawable/bound_angle_pose"
+        tools:visibility="visible" />
 
     <TextView
         android:id="@+id/textView2"
@@ -59,9 +63,11 @@
         android:layout_height="120sp"
         android:layout_marginStart="10sp"
         android:layout_marginTop="8dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bridge_pose"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        tools:src="@drawable/bridge_pose" />
+        app:srcCompat="@drawable/bridge_pose" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -69,9 +75,10 @@
         android:layout_height="120sp"
         android:layout_marginStart="10sp"
         android:layout_marginTop="8dp"
+        android:scaleType="centerCrop"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        tools:src="@drawable/cat_camel_pose_1" />
+        app:srcCompat="@drawable/cat_camel_pose_1" />
 
     <TextView
         android:id="@+id/textView3"
@@ -79,10 +86,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10sp"
         android:layout_marginTop="76dp"
+        android:text="Asthanga Yoga"
         android:textColor="#493E3E"
         android:textSize="30sp"
         android:textStyle="bold"
-        android:text="Asthanga Yoga"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/imageView4"
